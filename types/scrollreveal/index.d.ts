@@ -33,7 +33,7 @@ declare namespace scrollReveal {
         opacity?: number;
         scale?: number;
         easing?: string;
-        cleanup?:boolean;
+        cleanup?: boolean;
         container?: any;
         mobile?: boolean;
         reset?: boolean;
@@ -63,8 +63,8 @@ declare namespace scrollReveal {
 
         sync(): void;
         
-        clean(selector: string | HTMLElement | NodeListOf<Element>):void;
+        clean(selector: string | HTMLElement | NodeListOf<Element>): void;
         
-        destroy():void;
+        destroy(): void;
     }
 }
